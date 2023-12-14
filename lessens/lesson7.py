@@ -70,6 +70,7 @@ def select_employer_by_salary(connection, salary):
     for row in rows:
         print(row)
 
+
 connection = create_connection("35-1.db")
 
 sql_create_employees_table = '''
@@ -111,7 +112,6 @@ if connection:
     # create_employee(connection, ('Shanty Morani', 1200.6, None, '1989-08-13', False))
     # create_employee(connection, ('Fiona Giordano', 900.12, 'Football', '1977-01-15', True))
     connection.close()
-
 
 # '''
 # ДЗ*:
